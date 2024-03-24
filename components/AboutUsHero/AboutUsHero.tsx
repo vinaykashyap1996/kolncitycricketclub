@@ -7,7 +7,7 @@ function AboutUsHero() {
       <div className='bg-black text-white h-3/4 w-full flex flex-row justify-around items-start p-20'>
         <div className='justify-items-start'>
           <Image
-            src='/india.jpeg'
+            src='/IMG_3298.jpg'
             alt='Köln City Cricket Club e.V'
             width={700}
             height={600}

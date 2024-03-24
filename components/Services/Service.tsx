@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Service = () => {
   return (
@@ -7,6 +8,14 @@ const Service = () => {
         <p className='text-white-800 font-bold text-3xl pb-6'>
           MEET OUR PARTNERS
         </p>
+        <div>
+        <Image
+            src='/rd_travels.PNG'
+            alt='Köln City Cricket Club e.V'
+            width={300}
+            height={100}
+          />
+        </div>
       </div>
     </div>
   );

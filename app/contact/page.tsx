@@ -11,8 +11,9 @@ function Contact() {
       <div className=' bg-black h-full text-white text-center'>
         <div className='flex justify-between'>
           <div className='flex flex-col items-start m-8'>
+            *** Contact us via phone ***
             <div className='w-full max-w-3xl'>
-              <form className='bg-gray-300 shadow-md rounded px-8 pt-10 pb-8 mb-4'>
+              <form method='POST' action="mailto:kolncitycricketclub@gmail.com" className='bg-gray-300 shadow-md rounded px-8 pt-10 pb-8 mb-4'>
               <h2 className='text-black text-transform: uppercase text-2xl mb-4'>HAVE ANY QUERY? PLEASE CONTACT US!</h2>
 
                 <div className='mb-4 flex'>
@@ -60,7 +61,6 @@ function Contact() {
               width='600'
               height='450'
               style={{ border: '0' }}
-              allowFullScreen=''
               loading='lazy'
               referrerPolicy='no-referrer-when-downgrade'></iframe>{' '}
           </div>

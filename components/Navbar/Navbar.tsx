@@ -8,12 +8,14 @@ import Image from 'next/image';
 function Navbar() {
   return (
     <Popover className='container mx-auto flex items-center border-b-2 px-6 py-2 h-24'>
-    <Image
+    <a href='/'>
+    <Image 
       src='/logo-without-bg.png'
       alt='Köln City Cricket Club e.V'
       width={80}
       height={90}
     />
+    </a>
     <h1 className='font-bold'>Köln City Cricket Club</h1>
     <div className='grow'>
       <div className=' hidden sm:flex items-center justify-end gap-2 md:gap-8'>

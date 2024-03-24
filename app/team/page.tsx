@@ -14,24 +14,24 @@ function Team() {
         <div className='mx-px	my-px flex flex-row justify-between	'>
         <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/thumbnail.webp'
+            src='/safi.jpeg'
             alt='Köln City Cricket Club e.V'
             width={400}
             height={400}
           />
           <div className='px-6 py-4 bg-gray-300'>
-            <div className='font-bold text-xl'>Rameez Deshmukh</div>
+            <div className='font-bold text-xl'>Safi</div>
         </div>
       </div>
       <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/thumbnail.webp'
+            src='/likhon.jpeg'
             alt='Köln City Cricket Club e.V'
             width={400}
             height={400}
           />
           <div className='px-6 py-4 bg-gray-300'>
-            <div className='font-bold text-xl'>Vinay Kashyap</div>
+            <div className='font-bold text-xl'>Ahmed Likhon</div>
         </div>
       </div>
       <div className='max-w-sm rounded overflow-hidden shadow-lg'>
@@ -49,7 +49,7 @@ function Team() {
         <div className='mt-4 flex flex-row justify-between	'>
         <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/thumbnail.webp'
+            src='/tejas.jpg'
             alt='Köln City Cricket Club e.V'
             width={400}
             height={400}
@@ -60,7 +60,7 @@ function Team() {
       </div>
       <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/thumbnail.webp'
+            src='/sindhoor.jpg'
             alt='Köln City Cricket Club e.V'
             width={400}
             height={400}
@@ -71,32 +71,126 @@ function Team() {
       </div>
       <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/likhon.jpeg'
+            src='/hasan.jpg'
             alt='Köln City Cricket Club e.V'
             width={400}
             height={400}
           />
           <div className='px-6 py-4 bg-gray-300'>
-            <div className='font-bold text-xl'>Ahmed Likhon</div>
+            <div className='font-bold text-xl'>Hasan</div>
         </div>
       </div>
         </div>
-        <div>
+       
+        <div className='mt-4 flex flex-row justify-between'>
         <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/safi.jpeg'
+            src='/thumbnail.webp'
             alt='Köln City Cricket Club e.V'
             width={400}
             height={400}
           />
           <div className='px-6 py-4 bg-gray-300'>
-            <div className='font-bold text-xl'>Safi </div>
+            <div className='font-bold text-xl'>Sukhinder</div>
+        </div>
+      </div>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>omid</div>
+        </div>
+      </div>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/harsimrat.jpg'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Harsimrat Khan</div>
         </div>
       </div>
         </div>
-    </div>
+        <div className='mt-4 flex flex-row justify-between'>
+        <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Ajab Khan </div>
+        </div>
+      </div>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Mafuzur</div>
+        </div>
+      </div>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Raju Islam</div>
+        </div>
+      </div>
+        </div>
+        <div className='mt-4 flex flex-row justify-between'>
+        <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Rammez Deshmukh </div>
+        </div>
+      </div>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Vinay Kashyap</div>
+        </div>
+      </div>
+      {/* <div className='max-w-sm rounded overflow-hidden shadow-lg'>
+          <Image
+            src='/thumbnail.webp'
+            alt='Köln City Cricket Club e.V'
+            width={400}
+            height={400}
+          />
+          <div className='px-6 py-4 bg-gray-300'>
+            <div className='font-bold text-xl'>Raju Islam</div>
+        </div> 
+      </div> */}
+        </div>
     <Footer />
-  </>  )
+  </div>  
+  </>
+  )
 }
 
 export default Team

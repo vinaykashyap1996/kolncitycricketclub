@@ -3,20 +3,22 @@ import React from 'react';
 
 function AboutHero() {
   return (
-    <div className='bg-black text-white h-1/2 w-full flex flex-row justify-around items-start p-20'>
+    <div className='text-black h-1/2 w-full flex flex-row justify-around items-start p-20'>
         <div className='max-w-sm rounded overflow-hidden shadow-lg'>
           <Image
-            src='/slider.jpeg'
+            src='/IMG_3298.jpg'
             alt='Köln City Cricket Club e.V'
-            width={200}
-            height={100}
+            width={1000}
+            height={600}
           />
         </div>
-        <div>
-        MORE THAN JUST A CRICKET CLUB. ITS A FAMILY!
-        The clubs welcomes you with warm heart to join the family.
-
-        Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.
+        <div className='ml-20 mt-20 text-lg text-bold'>
+        More than just a cricket club, its a family we cherish and admire.
+Welcoming each member with open arms, in unity we aspire.
+Here, passion for the game blends with bonds that never tire.
+Every victory shared, every challenge, a fire.
+In this family, we grow, learn, and inspire.
+Join us, feel the warmth, and let your spirits soar higher.
         </div>
     </div>
   );

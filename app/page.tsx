@@ -12,9 +12,9 @@ export default function Home() {
       <Hero />
       <AboutHero />
       <Mission />
-      <section className=' text-white h-screen bg-black text-center flex'>
+      {/* <section className=' text-white h-screen bg-black text-center flex'>
         <h1 className='font-bold'>News</h1>
-      </section>
+      </section> */}
       <Service />
       <Footer/>  
     </div>
